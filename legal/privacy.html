@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Политика конфиденциальности | Вика Рогова</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="../index.html" class="logo">Вика Рогова</a>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="legal-page">
+        <div class="container">
+            <article class="legal-content">
+                <h1>Политика конфиденциальности</h1>
+                
+                <section>
+                    <h2>1. Общие положения</h2>
+                    <p>Настоящая политика конфиденциальности персональных данных (далее — Политика конфиденциальности) действует в отношении всей информации, которую сайт портфолио Вики Роговой, расположенный на доменном имени vikarogova.ru, может получить о Пользователе во время использования сайта.</p>
+                </section>
+                
+                <section>
+                    <h2>2. Сбор и использование информации</h2>
+                    <p>Сайт не собирает и не хранит персональные данные пользователей. Мы не используем cookies и не отслеживаем действия пользователей на сайте.</p>
+                    <p>Если вы связываетесь со мной через указанные контактные данные (Telegram, Behance), то обработка ваших персональных данных будет регулироваться политиками конфиденциальности соответствующих платформ.</p>
+                </section>
+                
+                <section>
+                    <h2>3. Изменения в политике конфиденциальности</h2>
+                    <p>Я имею право вносить изменения в настоящую Политику конфиденциальности. При внесении изменений в актуальной редакции указывается дата последнего обновления.</p>
+                </section>
+                
+                <section>
+                    <h2>4. Контактная информация</h2>
+                    <p>Если у вас есть какие-либо вопросы по поводу данной Политики конфиденциальности, пожалуйста, свяжитесь со мной через указанные на сайте контакты.</p>
+                </section>
+                
+                <p class="legal-date">Дата последнего обновления: <span id="update-date"></span></p>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">Вика Рогова</div>
+                <div class="footer__links">
+                    <a href="../index.html" class="footer__link">На главную</a>
+                    <span class="footer__copyright">© <span id="year"></span> Все права защищены</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById('update-date').textContent = new Date().toLocaleDateString('ru-RU', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
