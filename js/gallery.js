@@ -63,6 +63,27 @@ const worksData = [
         description: "Беспроводные наушники с чистым звуком, сенсорным управлением и оригинальным дизайном. Компактные и стильные.",
         image: "images/works/work9.jpg"
     },
+    {
+        id: 10,
+        title: "Электросамокат Xiaomi SACHUPO",
+        category: "infographic",
+        description: "Лёгкий и манёвренный электросамокат с мощным двигателем 13 кВт и запасом хода 12 км. Идеален для городских поездок и коротких дистанций.",
+        image: "images/works/work10.jpg"
+    },
+    {
+        id: 11,
+        title: "Протеиновое печенье SHOCK DONUT",
+        category: "infographic",
+        description: "Высокобелковое печенье в удобной упаковке (12 шт). Отличный перекус для спортсменов и тех, кто следит за питанием.",
+        image: "images/works/work11.jpg"
+    },
+    {
+        id: 12,
+        title: "Смартфон HONOR X7B",
+        category: "infographic",
+        description: "Стильный и функциональный смартфон с ярким дисплеем и долгим временем работы. Отличный выбор для работы и развлечений.",
+        image: "images/works/work12.jpg"
+    },
     // Add more works as needed
 ];
 
